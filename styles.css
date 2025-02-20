@@ -78,25 +78,35 @@ img.mfriends{
     border-bottom: 8px grey solid;
 }
 
-div.container h2{
-    text-align: center;
-    color: red;
-    margin: 25px;
-    font-size: 40px;
-}
-
-.container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two columns */
-    grid-gap: 10px; /* Spacing between images */
-    width: 80%; /* Adjust as needed */
-    margin: 30px auto; /* Center the container */
-}
-
 img.gallery{
     width: 100%;
     height: auto;
     border-bottom: 8px red solid;
+}
+
+p.friends{
+    margin-bottom: 30px;
+}
+
+div.card{
+    background-color: lightgrey;
+    border-radius: 20px;
+    text-align: center;
+    padding: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.card-title{
+    color: red;
+    font-size: 30px;
+}
+
+p.card-description{
+    font-size: 20px !important;
+}
+
+.cardimg{
+    width:10%;
 }
 
 .carrier {
