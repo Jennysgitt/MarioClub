@@ -72,6 +72,83 @@ div.content p{
     font-size: 30px;
 }
 
+img.mfriends{
+    width: 100%;
+    height: auto;
+    border-bottom: 8px grey solid;
+}
+
+div.container h2{
+    text-align: center;
+    color: red;
+    margin: 25px;
+    font-size: 40px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    grid-gap: 10px; /* Spacing between images */
+    width: 80%; /* Adjust as needed */
+    margin: 30px auto; /* Center the container */
+}
+
+img.gallery{
+    width: 100%;
+    height: auto;
+}
+
+.carrier {
+    display: flex; /* Use flexbox for layout */
+    align-items: flex-start; /* Align items to the top */
+    justify-content: flex-start; /* Align items to the left */
+    width: 80%; /* Adjust as needed */
+    margin: 20px auto; /* Center the container horizontally */
+}
+
+.form-wrapper {
+    font-style: italic;
+    width: 45%; /* Adjust width as needed */
+    padding: 20px;
+    background-color: #f0f0f0; /* Light gray background for the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.form-wrapper h2 {
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px;
+}
+
+.form-wrapper label {
+    display: block; /* Labels on separate lines */
+    margin-bottom: 5px;
+}
+
+.form-wrapper input[type="text"],
+.form-wrapper input[type="email"],
+.form-wrapper textarea {
+    width: calc(100% - 12px); /* Full width with padding adjustment */
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.form-wrapper input[type="submit"] {
+    background-color: #4CAF50; /* Green submit button */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+img.contacts{
+    width: 100%;
+    height: auto;
+}
 footer{
     background-color: grey;
     color: white;
