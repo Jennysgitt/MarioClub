@@ -96,6 +96,7 @@ div.container h2{
 img.gallery{
     width: 100%;
     height: auto;
+    border-bottom: 8px red solid;
 }
 
 .carrier {
@@ -149,6 +150,22 @@ img.contacts{
     width: 100%;
     height: auto;
 }
+
+input[type="submit"] {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
 footer{
     background-color: grey;
     color: white;
