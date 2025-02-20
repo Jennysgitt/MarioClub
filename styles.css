@@ -1,0 +1,80 @@
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+div.header{
+    background-color: red;
+    text-align: center;
+    padding: 25px;
+}
+
+h1{
+    color: white;
+    border: 5px white solid;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 15px;
+}
+
+a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Make it match normal text color */
+    
+}
+
+div.links{
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+div.links a {
+    margin-left: 120px;
+    margin-right: 120px;
+    transition: all 0.3s ease;
+}
+
+div.links a:hover {
+    color: red;
+    /*text-decoration: underline;*/
+}
+
+div.links a:active {
+    background-color: #777;
+}
+
+img.mario{
+    width: 100%;
+    height: auto;
+    border-bottom: 8px red solid;
+}
+
+div.content{
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 25px;
+}
+
+div.content h2{
+    margin: 25px;
+    color: red;
+    text-align: center;
+    font-size: 40px;
+}
+
+div.content p{
+    line-height: 50px;
+    text-align: justify;
+    font-size: 30px;
+}
+
+footer{
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
