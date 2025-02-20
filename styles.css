@@ -117,11 +117,19 @@ p.card-description{
 }
 
 .carrier {
-    display: flex; /* Use flexbox for layout */
     align-items: flex-start; /* Align items to the top */
     justify-content: flex-start; /* Align items to the left */
     width: 80%; /* Adjust as needed */
     margin: 20px auto; /* Center the container horizontally */
+    position: absolute;
+    margin: 35px;
+    margin-left: 30px;
+}
+
+img.contacts{
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
 }
 
 .form-wrapper {
@@ -161,11 +169,6 @@ p.card-description{
     border: none;
     border-radius: 4px;
     cursor: pointer;
-}
-
-img.contacts{
-    width: 100%;
-    height: auto;
 }
 
 input[type="submit"] {
